@@ -5,7 +5,7 @@ class CreateTweets < ActiveRecord::Migration
       t.string :name
       t.string :time
 
-      t.timestamps
+      #t.timestamps
     end
   end
 end
