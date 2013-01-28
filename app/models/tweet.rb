@@ -15,10 +15,10 @@ class Tweet < ActiveRecord::Base
 
 
   Twitter.configure do |config|
-    config.consumer_key = "d3ZZSo0fu2MdxqBqRiakww"
-    config.consumer_secret = "p9srcywDKAeJcBTQDBAgjYseD7cOvNFNmuPD3TIn4"
-    config.oauth_token = "990318920-eYwbXtyO1uCmv1kHEDB2EK1Mor3cR4OT1LbmCyar"
-    config.oauth_token_secret = "VBBU6BfLJiZVrerIUdLEHjj7OL9RVJttOHVAY1rG8"
+    config.consumer_key = "ApktrzPEImrqJ3JC58Oug"
+    config.consumer_secret = "NWeI3XbK3U4QVCLJ8KojEyfHMizSW50dOBAFeH6lw"
+    config.oauth_token = "1127523145-edJKIwAJ4HzqQ7yd4W3Het4wftjVopH4LKfvJoy"
+    config.oauth_token_secret = "qOJoc7iLd2wk19wVbpB4X6Hh7BFrAS2sIKu8AjUxcYo"
   end
 
   @tweetcontent = []

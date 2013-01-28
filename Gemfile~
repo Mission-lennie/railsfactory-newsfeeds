@@ -10,6 +10,7 @@ gem 'execjs'
 gem 'json'
 gem 'therubyracer'
 gem 'twitter'
+gem 'pg'
 
 
 # Gems used only for assets and not required
